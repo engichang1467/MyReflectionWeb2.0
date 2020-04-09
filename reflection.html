@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>reflection</title>
+    <link rel="stylesheet" href="reflect2.css" />
+  </head>
+  <body>
+    <!-- <script src="reflect2.js"></script> -->
+    <script src="script/reflect.js"></script>
+
+    <h1>Michael's Reflection Blog 2.0 (Using TypeScript)</h1>
+    <h2> E1 Week 8</h2>
+    <h3> Here are some website</h3>
+    <ol>
+
+      <li>Website that's my favourite <a href="https://pythonprogramming.net/"> PythonProgramming</a> 
+        <ul>
+          <li>I like the design of this website not only because of their python tutorial, but also how their design is very user friendly</li>
+          
+          <li>the design color of the website are appropriate for the audience, the white background makes the website looks clean</li>
+          
+          <li> the design is appropriate for their service offer because the color resemble the python logo</li>
+        </ul>
+      </li>
+
+
+      <li>
+      Website that I think is OK <a href="https://www.tesla.com/en_CA/?redirect=no">Tesla</a> 
+        <ul>
+
+          <li>I like the way of how they put the image of each car on their website</li>
+          
+          <li>Even though they only used the color black and white, the two color fits the design perfectly. The color black allows the user to read the title of the website easily, while the color white allows </li>
+          
+          <li>The design is appropriate for advertising their cars because they use the images of their car as the center of their website</li>
+        
+        </ul>
+      
+      </li>
+
+      <li>
+      Website that I don't like
+      <a href="https://www.team10official.com/">Team 10</a>
+        <ul>
+          <li>Even though their design is interactive, the theme of each page does not related to each other</li>
+
+          <li>The color is too plain on some pages, or too dark</li>
+
+          <li>The design of each pages does not feel related to each other because their design have different theme</li>
+        </ul> 
+      </li>
+    </ol>
+
+    <h2>E4 Week 9</h2>
+
+    <p>We can use javascript to interact with our user. For example, you can press the button below to lat it ask your name, and say greet you.</p>
+
+    <button class="button button1" onclick="ask_user()">Please Press This Button</button>
+
+    <h2>E5 After midterm</h2>
+
+    <p>After midterm, I realized that I am comfortable with creating the structure of the website with HTML, but I wasn't fluent with styling image. When I was trying to put a image on the left, I originally thought I can just use padding-left to do that. However, because I didn't realized that the image is in the section, I should use margin-left instead</p>
+
+    <h2>E6 Week 10</h2>
+
+    <h3>This is a javascript page</h3>
+    <p>I can first create a function in javascript, and use it on my button below</p>
+    <p onclick="say_something()">This is a paragraph. Click on it</p>
+    <button class="button button1" onclick="say_hello()">Click me!</button>
+
+
+    <h2>E7 Styling: Affecting a different entry</h2>
+
+    <h3 id="changeMe" > Actions triggered by buttons </h3>
+
+    <p id="changeMe2" >The buttons below will accomplish different actions. Notice that different actions may be triggered when buttons are clicked once, or when they are double clicked.</p>
+
+    <p>
+       &nbsp;&nbsp;
+      <button class="button button1" onclick="changeText()" ondblclick="changeText_Back()">Change style of entry E6 (single/double click)</button>
+       &nbsp;&nbsp;
+      <button class="button button1" onclick="changeText2()">Change style of entry E6 (single click)</button>
+    </p>
+
+
+
+    <h2>E8 Affecting the whole document style! </h2>
+
+    <p>
+      &nbsp;&nbsp;
+      <button class="button button2" onclick="changeColor()" ondblclick="changeBack()">Change style of the whole document !! (single/double click)</button>
+      &nbsp;&nbsp;
+      <button class="button button3" onclick="changeColor2()">Change style of the whole document (single click)</button>
+      &nbsp;&nbsp;
+    </p>
+
+
+    <h2>E9 Changing a picture: two alternatives</h2>
+    <img id="myImg" onclick="changeImg()" alt="Lettuce" title="Lettuce. Source: https://pxhere.com/en/photo/568041" src="images/Lettuce.jpg" width="250" height="200" />
+
+
+    <h2>E10 Counting</h2>
+    <p>
+      &nbsp;&nbsp;
+      <button class="button button1" onclick="add_1()">Add 1</button>
+      &nbsp;&nbsp;
+      <button class="button button1" onclick="reset()">Reset to 0</button>
+      &nbsp;&nbsp;
+    </p>
+    <p id="here"></p>
+
+
+    <h2>E11 Counting circularly</h2>
+
+    <button class="button button1" onclick="Add_1_til10()">Add 1, up to 10</button>
+    <p id="metoo"></p>
+
+
+    <h2>E12 Changing a picture: several alternatives</h2>
+    <img id="img2" onclick="changeimgs()" alt="Eggs" title="Eggs. Source: https://commons.wikimedia.org/wiki/File:6-Pack-Chicken-Eggs.jpg" src="images/6-Pack-Chicken-Eggs.jpg" width="250" height="200" />
+
+
+    <h2>E13 Rendering additional content by the elements in a list</h2>
+    <ul>
+
+      <li>x<span class="classValue val2"></span></li>
+      <li>e<span class="classValue val2"></span></li>
+      <li>a<span class="classValue"></span></li>
+      <li>b<span class="classValue val2"></span></li>
+      <li>c<span class="classValue val2"></span></li>
+      <li>a<span class="classValue"></span></li>
+      <li>v<span class="classValue val2"></span></li>
+      <li>n<span class="classValue val2"></span></li>
+      <li>a<span class="classValue"></span></li>
+
+    </ul>
+
+    <p>
+      &nbsp;&nbsp;  
+      <button class="button button1" onclick="add_stars()">Add *** to all items</button>
+      &nbsp;&nbsp;
+      <button class="button button1" onclick="add_some_stars()">Add *** to all items except 'a'</button>
+      &nbsp;&nbsp;
+      <button class="button button1" onclick="remove_stars()">Reset to original contents</button>
+    </p>
+
+    <h2>E14 Eliminating and adding elements to a list</h2>
+    <section class="borderline">
+      <h3>Here are the lists!</h3>
+
+      <ul id="myUlist" class="marginAndFloat BackColor">
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+        <li>Fourth item</li>
+        <li>Fifth item</li>
+      </ul>
+
+      <ol id="myOlist" class="par1"><li>First item</li><li>Second item</li><li>Third item</li><li>Fourth item</li><li>Fifth item</li></ol>
+
+    </section>
+
+    <button class="button button1" onclick="RemoveOList1st()"> Eliminate the first element of the ordered list (with one click)</button>
+    <button class="button button1" onclick="RemoveOListLast()">Eliminate the last element of the ordered list (with one click)</button>
+
+    <p>As the element dissapear, the content will be shown here ===> <b style="color: red; font-style: italic" id='here2'></b></p>
+
+      <p>
+        Text:
+        <input type="text" id="listname">
+        <br><br>
+        Color:
+        <input type="color" id="favcolor" value="#ff0000">
+        <br><br>
+        <button class="button button1" onclick="AddNewList()">ADD A NEW LIST element to the ordered list</button>
+      </p>
+
+      
+  </body>
+</html>
+ 

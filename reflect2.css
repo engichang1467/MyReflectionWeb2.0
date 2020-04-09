@@ -1,0 +1,84 @@
+body {
+  background-color: lightblue;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin-left: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;      
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.button1:hover {
+    background-color: #008CBA;
+    color: white;
+    transform: scale(1.125);
+}
+
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(4, 150, 16);
+    font-family: Courier New;
+}
+
+.button2:hover {
+    background-color: rgb(4, 150, 16);
+    color: white;
+    transform: scale(1.125);
+    font-family: Courier New;
+}
+
+.button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(255, 184, 246);
+    font-family: Arial;
+}
+
+.button3:hover {
+    background-color: rgb(255, 184, 246);
+    color: white;
+    transform: scale(1.125);
+    font-family: Arial;
+}
+
+.marginAndFloat{
+  float: left;
+  margin: 5px;
+}
+
+.borderline{
+  border: 3px;
+  /*background-color: white;*/
+  padding: 30px;
+  margin-top: 20px;
+  padding-bottom: 100px;
+}
+
+.par1{
+  float: right;
+  margin-right: 200px;
+  margin: 5px;
+  background-color: yellow;
+}
+
+.BackColor{
+  background-color: orange;
+  margin-left: 10px;
+
+}
